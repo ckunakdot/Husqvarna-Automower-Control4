@@ -37,7 +37,7 @@ Professional Control4 integration for Husqvarna Automower Connect robotic lawn m
 - **Husqvarna Developer Portal Account** - Free account at https://developer.husqvarnagroup.cloud
 
 ### Software
-- Control4 OS 2.10.0 or newer
+- Control4 OS 3.3.0 or newer
 - ComposerPro (for installation and configuration)
 
 ## Installation
