@@ -148,4 +148,4 @@ Access: `http://[controller-ip]:1122`
 
 Provided as-is. Husqvarna and Automower are trademarks of Husqvarna Group. Not affiliated with or endorsed by Husqvarna Group.
 
-Use at your own risk. Always supervise robotic lawn mowers and follow manufacturer safety guidelines.
+Use at your own risk. Always supervise robotic lawn mowers and follow the manufacturer’s safety guidelines. We are not responsible for any injury or damage.
