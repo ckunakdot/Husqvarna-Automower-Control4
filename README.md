@@ -79,8 +79,9 @@ The child driver displays different icons based on real-time mower activity:
 | 🔴 Error | Error Code Present | Mower has error |
 
 **Update Frequency:** Automatic every 3 minutes
-
 ## Web Map Interface
+
+<img width="878" height="495" alt="Map Screenshot" src="https://github.com/user-attachments/assets/1ebe1dbe-a6fe-4828-9ebf-7e247db2d830" />
 
 Access: `http://[controller-ip]:1122`
 
