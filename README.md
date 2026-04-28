@@ -70,13 +70,17 @@ The child driver displays different icons based on real-time mower activity:
 | Icon | Activity | Description |
 |------|----------|-------------|
 | 🟢 Mowing | MOWING | Actively cutting grass |
-| 🟠 Charging | CHARGING | Charging in station |
-| ⚫ Parked | PARKED_IN_CS | Parked in charging station |
+| <img width="267" height="171" alt="image" src="https://github.com/user-attachments/assets/ab45abe3-7f7a-4b0c-a9bb-556b82828046" />
+ Charging | CHARGING | Charging in station |
+| <img width="263" height="166" alt="image" src="https://github.com/user-attachments/assets/24d15c08-15f1-4be6-99a2-14fdab514c67" />
+ | PARKED_IN_CS | Parked in charging station |
 | 🔵 Leaving | GOING_HOME, LEAVING | Traveling to/from station |
 | 🟡 Paused | PAUSED | Temporarily stopped |
 | 🔴 Stopped | STOPPED_IN_GARDEN | Stopped outside station |
-| ⚫ Idle | NOT_APPLICABLE | Idle, no activity |
-| 🔴 Error | Error Code Present | Mower has error |
+| <img width="270" height="169" alt="image" src="https://github.com/user-attachments/assets/b86bc4bd-cf29-4680-9022-2f04df99a0cb" />
+ Idle | NOT_APPLICABLE | Idle, no activity |
+| <img width="272" height="166" alt="image" src="https://github.com/user-attachments/assets/93732d47-e238-4274-8d61-f98f5d788572" />
+ Error | Error Code Present | Mower has error |
 
 **Update Frequency:** Automatic every 3 minutes
 ## Web Map Interface
