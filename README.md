@@ -6,7 +6,7 @@
 
 A Control4 driver that integrates Husqvarna Automower robotic lawn mowers using the official Husqvarna Automower Connect API. Provides full control and monitoring capabilities through the Control4 ecosystem with **dynamic Navigator icons**, **automatic status updates**, and an embedded web interface for real-time mower tracking.
 
-### Key Features
+## Key Features
 
 **Gateway Driver (v2.27)**
 - OAuth2 authentication with automatic token refresh
@@ -70,28 +70,28 @@ The child driver displays different icons based on real-time mower activity:
 | Icon | Activity | Description |
 |------|----------|-------------|
 | 🟢 Mowing | MOWING | Actively cutting grass |
-|<img width="267" height="171" alt="image" src="https://github.com/user-attachments/assets/ab45abe3-7f7a-4b0c-a9bb-556b82828046" /> | CHARGING | Charging in station |
-
-| <img width="263" height="166" alt="image" src="https://github.com/user-attachments/assets/24d15c08-15f1-4be6-99a2-14fdab514c67" /> | Parked in charging station |
+| <img width="267" alt="Charging Icon" src="https://github.com/user-attachments/assets/ab45abe3-7f7a-4b0c-a9bb-556b82828046" /> | CHARGING | Charging in station |
+| <img width="263" alt="Parked Icon" src="https://github.com/user-attachments/assets/24d15c08-15f1-4be6-99a2-14fdab514c67" /> | PARKED_IN_CS | Parked in charging station |
 | 🔵 Leaving | GOING_HOME, LEAVING | Traveling to/from station |
 | 🟡 Paused | PAUSED | Temporarily stopped |
 | 🔴 Stopped | STOPPED_IN_GARDEN | Stopped outside station |
-| <img width="270" height="169" alt="image" src="https://github.com/user-attachments/assets/b86bc4bd-cf29-4680-9022-2f04df99a0cb" /> | NOT_APPLICABLE | Idle, no activity |
-| <img width="272" height="166" alt="image" src="https://github.com/user-attachments/assets/93732d47-e238-4274-8d61-f98f5d788572" /> | Error Code Present | Mower has error |
+| <img width="270" alt="Idle Icon" src="https://github.com/user-attachments/assets/b86bc4bd-cf29-4680-9022-2f04df99a0cb" /> | NOT_APPLICABLE | Idle, no activity |
+| <img width="272" alt="Error Icon" src="https://github.com/user-attachments/assets/93732d47-e238-4274-8d61-f98f5d788572" /> | Error Code Present | Mower has error |
 
 **Update Frequency:** Automatic every 3 minutes
+
 ## Web Map Interface
 
-<img width="878" height="495" alt="Map Screenshot" src="https://github.com/user-attachments/assets/1ebe1dbe-a6fe-4828-9ebf-7e247db2d830" />
+<img width="878" alt="Map Screenshot" src="https://github.com/user-attachments/assets/1ebe1dbe-a6fe-4828-9ebf-7e247db2d830" />
 
 Access: `http://[controller-ip]:1122`
 
 **Features:**
--  Interactive map (OpenStreetMap/Satellite)
--  Real-time mower positions
--  Battery levels and activity status
--  Mower selector dropdown
--  Cache age display
+- 📍 Interactive map (OpenStreetMap/Satellite)
+- 🚜 Real-time mower positions
+- 🔋 Battery levels and activity status
+- 📲 Mower selector dropdown
+- 🕐 Cache age display
 
 **Individual Mower URLs:**
 - `?mower=0` (first mower)
@@ -105,7 +105,7 @@ Access: `http://[controller-ip]:1122`
 | 1 | 180s | ~3,360 | 16% |
 | 2 | 180s | ~6,720 | 32% |
 | 3 | 180s | ~10,080 | 48% |
-| 4 | 180s | ~13,440 | 64% |
+| 4 | 180s | ~13,440 | 64% ✅ |
 | 5+ | 240s | Varies | Adjust |
 
 **Limit:** 21,000 requests/week
@@ -134,6 +134,8 @@ Access: `http://[controller-ip]:1122`
 - Set Web Data Mode to "Cached"
 - Wait 5 minutes for auto-recovery
 
+## License
+
 Provided as-is. Husqvarna and Automower are trademarks of Husqvarna Group. Not affiliated with or endorsed by Husqvarna Group.
 
-Use at your own risk. Always supervise robotic lawn mowers and follow the manufacturer’s safety guidelines. We are not responsible for any injury or damage.
+Use at your own risk. Always supervise robotic lawn mowers and follow the manufacturer's safety guidelines. We are not responsible for any injury or damage.
