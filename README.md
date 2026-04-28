@@ -99,11 +99,11 @@ The child driver displays different icons based on real-time mower activity:
 Access: `http://[controller-ip]:1122`
 
 **Features:**
-- 📍 Interactive map (OpenStreetMap/Satellite)
-- 🚜 Real-time mower positions
-- 🔋 Battery levels and activity status
-- 📲 Mower selector dropdown
-- 🕐 Cache age display
+-  Interactive map (OpenStreetMap/Satellite)
+-  Real-time mower positions
+-  Battery levels and activity status
+-  Mower selector dropdown
+-  Cache age display
 
 **Individual Mower URLs:**
 - `?mower=0` (first mower)
