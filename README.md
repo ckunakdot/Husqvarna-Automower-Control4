@@ -146,12 +146,6 @@ Access: `http://[controller-ip]:1122`
 - Set Web Data Mode to "Cached"
 - Wait 5 minutes for auto-recovery
 
-## Support
-
-- **Developer Portal:** https://developer.husqvarnagroup.cloud/
-- **API Docs:** https://developer.husqvarnagroup.cloud/apis/automower-connect-api
-- **Husqvarna Connect App:** Available on iOS/Android
-
 Provided as-is. Husqvarna and Automower are trademarks of Husqvarna Group. Not affiliated with or endorsed by Husqvarna Group.
 
 Use at your own risk. Always supervise robotic lawn mowers and follow manufacturer safety guidelines.
