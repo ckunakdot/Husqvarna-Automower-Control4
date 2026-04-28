@@ -6,18 +6,6 @@
 
 A Control4 driver that integrates Husqvarna Automower robotic lawn mowers using the official Husqvarna Automower Connect API. Provides full control and monitoring capabilities through the Control4 ecosystem with **dynamic Navigator icons**, **automatic status updates**, and an embedded web interface for real-time mower tracking.
 
- **Gateway v2.27**
-- Automatic status broadcasting to all child devices every 3 minutes
-- No manual refresh needed - icons update automatically!
-- Embedded HTML documentation in Composer Pro
-
- **Child Driver v2.26  
-- Dynamic Navigator icons that change based on mower activity
-- 8 icon states with professional artwork
-- Embedded HTML documentation in Composer Pro
-- Cycling button behavior for quick command access
-
-
 ### Key Features
 
 **Gateway Driver (v2.27)**
@@ -29,7 +17,6 @@ A Control4 driver that integrates Husqvarna Automower robotic lawn mowers using 
 - Rate limit management for API compliance
 - Configurable polling intervals (120-600 seconds)
 - Cached and live data modes for web interface
-- **Embedded HTML documentation in Composer Pro**
 
 **Child Device Driver (v2.26)**
 - **Dynamic Navigator icons that change based on mower activity**
@@ -38,7 +25,6 @@ A Control4 driver that integrates Husqvarna Automower robotic lawn mowers using 
 - Cycling button behavior for quick command access
 - Event triggers for programming automation
 - Battery level and GPS location display
-- **Embedded HTML documentation in Composer Pro**
 
 ## System Requirements
 
