@@ -69,10 +69,10 @@ The child driver displays different icons based on real-time mower activity:
 
 | Icon | Activity | Description |
 |------|----------|-------------|
-| 🟢 Mowing | MOWING | Actively cutting grass |
+| <img width="271" height="163" alt="image" src="https://github.com/user-attachments/assets/a07a6188-9c1f-4e90-b72f-9f34c2cfafe2" />| MOWING | Actively cutting grass |
 | <img width="267" alt="Charging Icon" src="https://github.com/user-attachments/assets/ab45abe3-7f7a-4b0c-a9bb-556b82828046" /> | CHARGING | Charging in station |
 | <img width="263" alt="Parked Icon" src="https://github.com/user-attachments/assets/24d15c08-15f1-4be6-99a2-14fdab514c67" /> | PARKED_IN_CS | Parked in charging station |
-| 🔵 Leaving | GOING_HOME, LEAVING | Traveling to/from station |
+| <img width="271" height="163" alt="image" src="https://github.com/user-attachments/assets/58152dfc-39c9-4046-b8df-ec0dbb68162a" /> | GOING_HOME, LEAVING | Traveling to/from station |
 | 🟡 Paused | PAUSED | Temporarily stopped |
 | 🔴 Stopped | STOPPED_IN_GARDEN | Stopped outside station |
 | <img width="270" alt="Idle Icon" src="https://github.com/user-attachments/assets/b86bc4bd-cf29-4680-9022-2f04df99a0cb" /> | NOT_APPLICABLE | Idle, no activity |
