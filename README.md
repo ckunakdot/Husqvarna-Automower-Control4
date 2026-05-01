@@ -20,7 +20,7 @@ A Control4 driver that integrates Husqvarna Automower robotic lawn mowers using 
 
 **Child Device Driver (v2.26)**
 - **Dynamic Navigator icons that change based on mower activity**
-- **Automatic weather-based rain protection** (NEW in v2.26)
+- **Automatic weather-based rain protection**
 - Individual mower control and status display
 - 8 icon states: idle, mowing, charging, parked, paused, leaving, stopped, error
 - Cycling button behavior for quick command access
