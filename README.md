@@ -98,7 +98,7 @@ Automatically protects your mower from rain damage by parking when rain is detec
 - **Free Tier:** 1,000 calls/day
 - **Driver Usage:** ~288 calls/day per mower
 - **Cost:** FREE (well within limits)
-- **Multiple Mowers:** 4 mowers = ~1,152 calls/day (still free!)
+
 
 ## Dynamic Navigator Icons
 
